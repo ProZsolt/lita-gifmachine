@@ -19,4 +19,6 @@ config.handlers.gifmachine.seekrit = 'xxxxxxxx'
 
 ## Usage
 
+```
 gifmachine <img> [| <top text> [| <bottom text>]]
+```
