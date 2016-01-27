@@ -1,6 +1,6 @@
 # lita-gifmachine
 
-gifmachine handler for Lita chatbot
+[gifmachine](https://github.com/wolfd/gifmachine) handler for Lita chatbot
 
 ## Installation
 
