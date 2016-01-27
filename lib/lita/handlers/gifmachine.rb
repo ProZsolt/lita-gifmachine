@@ -8,7 +8,7 @@ module Lita
         "gifmachine <img> [| <top text> [| <bottom text>]]" => "Posts gif to gifmachine"})
 
       def gifmachine(response)
-        http.post(
+        r = http.post(
           "#{config.base_url}/gif",
           url: response.match_data[1],
           who: response.user.name,
@@ -16,6 +16,8 @@ module Lita
           meme_bottom: response.match_data[3],
           seekrit: config.seekrit
         )
+        
+        response.reply "#{config.base_url} responded with #{r.status.to_s}"
       end
     end
 
