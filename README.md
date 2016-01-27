@@ -13,8 +13,8 @@ gem "lita-gifmachine"
 ## Configuration
 
 ```
-config.handlers.lita_gifmachine.base_url = 'https://example.com'
-config.handlers.lita_gifmachine.seekrit = 'xxxxxxxx'
+config.handlers.gifmachine.base_url = 'https://example.com'
+config.handlers.gifmachine.seekrit = 'xxxxxxxx'
 ```
 
 ## Usage
