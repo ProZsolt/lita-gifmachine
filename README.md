@@ -12,8 +12,11 @@ gem "lita-gifmachine"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+```
+config.handlers.lita_gifmachine.base_url = 'https://example.com'
+config.handlers.lita_gifmachine.seekrit = 'xxxxxxxx'
+```
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+gifmachine <img> [| <top text> [| <bottom text>]]
