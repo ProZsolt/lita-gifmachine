@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-gifmachine"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Zsolt Prontvai"]
   spec.email         = ["prozsolt@gmail.com"]
   spec.description   = "gifmachine handler for Lita chatbot"
