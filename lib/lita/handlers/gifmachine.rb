@@ -4,7 +4,7 @@ module Lita
       config :base_url, type: String, required: true
       config :seekrit, type: String, required: true
 
-      route(/^gifmachine (.+?)(?:\|(.*?))?(?:\|(.*?))?$/, :gifmachine, help: {
+      route(/^gifmachine ([^|]+)(?:\|([^|]*))?(?:\|(.*))?$/, :gifmachine, help: {
         "gifmachine <img> [| <top text> [| <bottom text>]]" => "Posts gif to gifmachine"})
 
       def gifmachine(response)
